@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sport</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Asset&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="nav">
+  <ul>
+    <li><a href="index.html">home</a></li>
+    <li><a href="Sport.html">sport</a></li>
+    <li><a href="#">aptitude</a></li>
+    <li><a href="#">location</a></li>
+    <li><a class="dark" href="contact.html">contact</a></li>
+  </ul>
+</div>
+<div id="header">
+  <img src="images/logo.jpg" width="180" height="150" alt="logo">
+  <h1>Ville Sportive</h1>
+  <p>En d'autres termes, le sport est la forme la plus sophistiquée de l'activite physique </p>
+</div>
+<div id="contentcontact">
+  <form name="form1" method="post" action="contact.php">
+    <table>
+      <tr>
+        <td>First Name :</td>
+        <td><label for="firstname"></label>
+        <input type="text" name="firstname" id="firstname"></td>
+      </tr>
+      <tr>
+        <td>Last Name :</td>
+        <td><label for="lastname"></label>
+        <input type="text" name="lastname" id="lastname"></td>
+      </tr>
+      <tr>
+        <td>Email :</td>
+        <td><label for="email"></label>
+        <input type="text" name="email" id="email"></td>
+      </tr>
+      <tr>
+        <td>Tel :</td>
+        <td><label for="tel"></label>
+        <input type="text" name="tel" id="tel"></td>
+      </tr>
+      <tr>
+        <td>Days :</td>
+        <td><label for="days"></label>
+          <select name="days" id="days">
+            <option value="1d">1Day</option>
+            <option value="2d">2Days</option>
+            <option value="3d">3Days</option>
+            <option value="4d">4Days</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>Massage :</td>
+        <td><label for="message"></label>
+        <textarea name="message" id="message"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="submit" name="send" id="send" value="Send your message"></td>
+      </tr>
+    </table>
+  </form>
+</div>
+<div id="footer">
+  <p>Ville Sportive &copy; 2019</p>
+  <ul class="social">
+  <li class="twitter"></li>
+  <li class="facebook"></li>
+  </ul>
+</div>
+</body>
+</html>
